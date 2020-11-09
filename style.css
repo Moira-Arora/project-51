@@ -1,0 +1,32 @@
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color:grey;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    position: relative;  
+  }
+  
+  .item p{
+      position:absolute;
+      top : 40%;
+      left:50%;
+      transform:translate(-40%,-50%);
+      opacity:0;
+  }
+  .item:hover p{
+      opacity:1;
+  }
+  
+  .item:hover img{
+   opacity :0.33;
+  }
+  
